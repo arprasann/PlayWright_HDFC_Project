@@ -36,6 +36,7 @@ test('Validate login Page @master @sanity @regression',async()=>{
 
     //Enter valid credentials and log in
     await logPage.enterUserName(config.username)
+    await logPage.waitforsometime();
     await logPage.enterPassword(config.password)
     await logPage.clickonLoginButton()
 

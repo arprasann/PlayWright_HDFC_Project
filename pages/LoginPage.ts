@@ -23,6 +23,7 @@ export class LoginPage1 {
     this.page.waitForTimeout(4000)
  }
 
+ //This method purpose is enter the username
  async  enterUserName(un : string)
  {
       try {
@@ -34,6 +35,7 @@ export class LoginPage1 {
 
  }
 
+ //This method purpose is enter the password
  async  enterPassword(pw : string)
  {
    try {
