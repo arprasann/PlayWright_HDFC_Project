@@ -1,0 +1,28 @@
+[{
+    "testName": "Valid login",
+    "username": "admin",
+    "password": "manager"
+},
+{
+    "testName": "InValid login1",
+    "username": "admin123",
+    "password": "00000999"
+},
+{
+    "testName": "InValid login2",
+    "username": "admin",
+    "password": "abc@#$12334"
+},
+{
+    "testName": "InValid login3",
+    "username": "",
+    "password": "abc@#$12334"
+},
+{
+    "testName": "InValid login4",
+    "username": "admin",
+    "password": ""
+}
+
+
+]

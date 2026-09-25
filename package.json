@@ -1,0 +1,29 @@
+{
+  "name": "hdfc_banking_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:master": "playwright test --grep @master",
+    "test:sanity": "playwright test --grep @sanity",
+    "test:regression": "playwright test --grep @regression",
+    "test:datadriven": "playwright test --grep @datadriven",
+    "test:master:headed": "playwright test --grep @master --headed",
+    "test:sanity:debug": "playwright test --grep @sanity --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.18.0",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.12.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "csv-parse": "^7.0.2",
+    "luxon": "^3.7.2",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  bookingid: 662,
+  booking: {
+    firstname: 'Gaetano',
+    lastname: 'Larkin',
+    totalprice: 2174,
+    depositpaid: false,
+    bookingdates: { checkin: '2026-09-24', checkout: '2026-09-29' },
+    additionalneeds: 'super bowls'
+  }
+}
